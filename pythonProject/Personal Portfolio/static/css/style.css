@@ -813,12 +813,7 @@ footer span a:hover{
         font-size: 40px;
         transition: all 0.1s ease;
     }
-
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
-
+    
     .max-width{
         max-width: 800px;
     }
@@ -866,8 +861,8 @@ footer span a:hover{
         transition: all 0.1s ease;
     }
     .home .home-content a{
-        font-size: 20px;
-        padding: 9px 25px;
+        font-size: 50px;
+
     }
 
     .services .serv-content .card{
@@ -920,7 +915,7 @@ footer span a:hover{
 
 }
 
-@media (max-width: 514px){
+@media (max-width: 515px){
 
 
 
@@ -933,6 +928,24 @@ footer span a:hover{
       width: 15em;
       height: 15em;
       margin: 1em;
+
+    }
+
+
+}
+
+@media (max-width: 400px){
+
+
+
+
+    .tabcontent > *:not(:first-child):not(:last-child) {
+      flex: 1 1 70%;
+      width: 240px;
+    }
+    .tabcontent .Projects .preview img{
+      width: 10em;
+      height: 10em;
 
     }
 
