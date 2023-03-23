@@ -398,7 +398,7 @@ section .title::after{
 
 .tabcontent .Projects .explanation{
   width: 20em;
-  height: 30em;
+  height: 17em;
   margin: 1em;
 }
 
@@ -930,6 +930,9 @@ footer span a:hover{
       margin: 1em;
 
     }
+    .tabcontent .Projects .explanation{
+      height: 30em;
+    }
 
 
 }
@@ -947,6 +950,10 @@ footer span a:hover{
       width: 10em;
       height: 10em;
 
+    }
+
+    .tabcontent .Projects .explanation{
+      height: 30em;
     }
 
 
